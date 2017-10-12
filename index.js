@@ -22,6 +22,6 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use(express.static(path.join(__dirname,'js')));
 app.use(router);
 
-app.listen(3000,function(){
+app.listen( process.env.PORT || 3000,function(){
     console.log("Running in the browser")
 })
