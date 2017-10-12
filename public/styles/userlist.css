@@ -1,0 +1,24 @@
+.topUserPadding{
+    padding-top: 10px !important;
+    /*background-color: #b2acab;
+   */
+}
+.pageUserHeading{
+    margin: 0px !important;
+    padding: 7px 0px 15px 0px !important;
+    font-size:7vw; 
+}
+
+
+.classUserUlList{
+    background-color:green;border-radius:5vw;
+                     height:10vw;vertical-align:middle;line-height:10vw;text-align:center;
+}
+.classUserUlListClick{
+  background-color:green;border-top-right-radius:5vw;
+                     border-bottom-right-radius:5vw;line-height:10vw;text-align:left;overflow-x:hidden;white-space:nowrap;
+}
+.deleteEditDiv{
+  background-color:red;border-top-left-radius:5vw;
+                     border-bottom-left-radius:5vw;line-height:10vw;text-align:center;
+}

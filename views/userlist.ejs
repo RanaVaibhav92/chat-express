@@ -1,0 +1,58 @@
+<% include header %>
+<div class="container topUserPadding">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="text-center pageUserHeading">User List</h1>
+        </div>
+        <div class="col-xs-12">
+            <div class="classUserUl">
+
+                
+
+                <% userListData.forEach(function(user){ %>
+                <div class="row" id="showIcon" style="margin:3vw;font-size:6vw;">
+                    <div class="col-xs-4 deleteEditDiv" style="display:none;">
+<span style="font-size:6vw;padding-left:2vw;top:1vw;line-height:8vw;"
+ onclick='deleteUser(<%- JSON.stringify(user)%>);' class="glyphicon glyphicon-trash"></span>  
+  <span style="font-size:6vw;padding-left:3vw;top:1vw;line-height:8vw;" 
+ onclick='editUser(<%- JSON.stringify(user)%>);' class="glyphicon glyphicon-pencil"></span>  
+  
+
+                    </div>
+                     <div class="col-xs-12 classUserUlList showingEditDelete">
+
+                          <%= user.firstName  %> <%= user.lastName %></div>
+                    </div>
+
+                   <% }) %>   
+                </div>
+                       
+                <!--<div class="row" id="showIcon" style="margin:3vw;font-size:6vw;">
+                    
+
+<div class="col-xs-4 deleteEditDiv" style="display:none;">
+<span style="font-size:6vw;padding-left:2vw;top:1vw;" class="glyphicon glyphicon-trash"></span>  
+  <span style="font-size:6vw;padding-left:3vw;top:1vw;"  class="glyphicon glyphicon-pencil"></span>  
+  
+
+                    </div>
+
+                     <div class="col-xs-12 classUserUlList" >
+
+                        abc
+                    </div>
+                </div>     -->
+                    
+           
+                    
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<% include footer %>

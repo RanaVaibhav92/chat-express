@@ -1,0 +1,77 @@
+.topPagePadding{
+    padding-top: 10px !important;
+    /*background-color: #b2acab;
+   */
+}
+.pageHeading{
+    margin: 0px !important;
+    padding: 7px 0px 15px 0px !important;
+    font-size:7vw; 
+}
+.removeInputShadow{
+    box-shadow: 0px 0px 0px 0px !important;
+    border:0px !important;
+    border-radius: 0px !important;
+    background-color:inherit !important;
+    position: absolute;padding-left:8vw;
+                padding-bottom:0vw;padding-right:7vw;font-size:6vw;
+   height:70%;
+    bottom: 0;
+}
+.floatingLabelUp{
+    position:absolute;top:0;font-size:4vw;left:7vw;z-index: 1;color:red;
+}
+
+.inputBorder{
+    position:absolute;left:7vw;right:7vw;bottom:0;margin:0;padding:0;height:1vw;border-top:2px solid black;
+}
+.staticLabel{
+font-size: 6vw;
+  position: absolute;
+  bottom: 0;left: 7vw; right: 0;
+  color:red;
+  pointer-events: none;
+  z-index: 1
+}
+ .floatingLabel{
+font-size: 6vw;
+  position: absolute;
+  bottom: 0;left: 7vw; right: 0;
+  color:red;
+  pointer-events: none;
+z-index: 1;
+
+}
+
+.slidingUnorderList{
+
+    list-style-type:none;display:none;padding:0;
+    position:absolute;top:3vw;background-color:grey;left:7vw;right:7vw;height:20vw;z-index:4;
+    
+}
+
+.slidingUnorderList li{
+    padding: 0;
+    margin: 0;
+font-size: 6vw;
+line-height: 10vw;
+vertical-align: middle;
+text-align: center;
+    height: 10vw;
+   
+
+}
+.slidingUnorderList li:first-child{
+   
+    border-bottom: 0.2vw solid black;
+
+}
+.buttonSubmit{
+   
+    width:100%;font-size:6vw;border-radius:25vw;outline:none !important;
+        
+        box-shadow: 0px 0px 0px 0px !important;
+}
+.inputBorderForButton{
+    position:absolute;left:7vw;right:7vw;bottom:0;margin:0;padding:0;
+}

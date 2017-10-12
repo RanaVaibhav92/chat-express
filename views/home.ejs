@@ -1,0 +1,112 @@
+<% include header%>
+<div class="container topPagePadding">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="text-center pageHeading">Sign Up Page</h1>
+        </div>
+        <form action="http://localhost:3000/signup" method="post">
+        <div class="col-xs-12 form-group" style="
+        margin:0;margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+             
+                <input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="text" name="firstName" id ="firstName">
+    <span class="floatingLabel">Enter your first Name</span>
+    <div class="inputBorder"></div>
+           
+            
+        </div>
+
+        <div class="col-xs-12 form-group" style="
+        margin:0; margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+             
+                <input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="text" name="lastName" id ="lastName">
+    <span class="floatingLabel">Enter your last Name</span>
+    <div class="inputBorder"></div>
+           
+            
+        </div>
+
+ <div class="col-xs-12 form-group" id="dropDownGender" style="margin:0; margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+             
+    <input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="text" name="gender" id ="gender">
+    <ul id="maleFemaleSelector" class="slidingUnorderList">
+        <li>Male</li>
+        <li >Female</li>
+    </ul>
+   
+    <span class="staticLabel">Gender</span>
+    <div class="inputBorder"></div>
+           
+            
+        </div>
+
+      <div class="col-xs-12 form-group" style="
+        margin:0; margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+             
+                <input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="email" name="emailId" id ="emailId">
+    <span class="floatingLabel">Enter your Email Id</span>
+    <div class="inputBorder"></div>
+           
+            
+        </div>  
+
+  <div class="col-xs-12 form-group" style="
+        margin:0; margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+             
+                <input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="text" name="dispalyName" id ="displayName">
+    <span class="floatingLabel">Enter your Display Name</span>
+    <div class="inputBorder">
+
+        
+    </div>
+           
+            
+        </div>   
+
+
+    <div class="col-xs-12 form-group" style="
+        margin:0; margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+                <!--<input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="text" id ="displayName">
+    <span class="floatingLabel">Enter your Display Name</span>
+    <div class="inputBorder"></div>-->
+              <div class="inputBorderForButton">
+
+        <button type="submit" class="btn btn-success btn-xs buttonSubmit" >Sign Up</button>    
+         
+    </div>
+            
+        </div>     
+          
+     <div class="col-xs-12 form-group" style="
+        margin:0; margin-bottom:2vw;height:14vw;position:relative;padding:0px;">
+             
+                <!--<input class="form-control input-md removeInputShadow"  onclick="showAlert()" type="text" id ="displayName">
+    <span class="floatingLabel">Enter your Display Name</span>
+    <div class="inputBorder"></div>-->
+              <div class="inputBorderForButton">
+
+        <button class="btn btn-primary btn-xs buttonSubmit" >Reset Information</button>    
+         
+    </div>
+            
+        </div>     
+               
+
+
+        <!--<div class="col-xs-12">
+            <div class="form-group labelFloating">
+                
+                <input class="form-control input-lg" onclick="showAlert()" type="text" id ="lastName">
+            <span class="floatingLabel">Enter your last Name</span>
+            </div>
+        </div>-->
+        </form>
+    </div>
+</div>
+
+<% include footer %>
