@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 
 var app = express();
 
-mongoose.connect("mongodb://node:node@ds161304.mlab.com:61304/nodechatapp",function(error){
+mongoose.connect(process.env.MONGODB_URI ||"mongodb://node:node@ds161304.mlab.com:61304/nodechatapp",function(error){
     if(error){console.log("error information :",error)}
     else
     console.log("connected succesfully");
